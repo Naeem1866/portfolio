@@ -15,7 +15,7 @@ const NavBar = ({ profile }) => {
               </a>
             </Link>
           </div>
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <ul className="flex items-center">
               <li className="group pl-6">
                 <a href="#about">
@@ -93,7 +93,7 @@ const NavBar = ({ profile }) => {
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="block lg:hidden">
             <button>
               <i className="bx bx-menu text-4xl text-white"></i>

@@ -29,7 +29,7 @@ export default function Home({ blogs, profile }) {
             name="viewport"
           />
 
-          <title>Homepage | Atom Template</title>
+          <title>Homepage </title>
 
           <meta property="og:title" content="Homepage | Atom Template" />
 
