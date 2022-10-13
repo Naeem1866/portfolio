@@ -153,15 +153,19 @@ const Post = ({ blog, profile, author }) => {
                   />
                 </div>
                 <div className="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
-                  <h3 className="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
-                    {author.title}
+                  <h3 className="pt-10 font-body text-3xl font-bold text-secondary md:pt-0">
+                    {author.title} ,
                   </h3>
+                  <h1 className="font-header text-xl font-medium text-black sm:text-2xl lg:text-2xl">
+                    {" "}
+                    I&apos;m {profile.name}, a Web Developer & Programmer.
+                  </h1>
                   <p className="pt-5 font-body text-lg leading-8 text-secondary sm:leading-9 md:text-xl md:leading-9 lg:leading-9 xl:leading-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                    I&apos;m currently a fresher. Looking for a job opportunity
+                    that will help me to enhance my programming skills
+                    ,capabilites and knowledge . I want to work with an
+                    organization which recognizes the value of hardwork and
+                    trusts me with challenges
                   </p>
                   <div className="flex items-center justify-center pt-5 md:justify-start">
                     <a href={profile.fbUrl}>

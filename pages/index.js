@@ -341,14 +341,11 @@ export default function Home({ blogs, profile }) {
                   I&apos;m {profile.name}, a Web Developer & Programmer.
                 </h4>
                 <p className="pt-6 font-body leading-relaxed text-grey-20">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  I&apos;m currently a fresher. Looking for a job opportunity
+                  that will help me to enhance my programming skills
+                  ,capabilites and knowledge . I want to work with an
+                  organization which recognizes the value of hardwork and trusts
+                  me with challenges
                 </p>
                 <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                   <div className="flex items-center justify-center sm:justify-start">
@@ -516,7 +513,7 @@ export default function Home({ blogs, profile }) {
               Here&apos;s what I&apos;m good at
             </h2>
             <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              These are the services I offer
+              These are the things, I can do
             </h3>
 
             <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
@@ -539,9 +536,6 @@ export default function Home({ blogs, profile }) {
                   <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                     WEB DEVELOPMENT
                   </h3>
-                  <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
                 </div>
               </div>
               <div className="group rounded px-8 py-12 shadow hover:bg-primary">
@@ -563,9 +557,6 @@ export default function Home({ blogs, profile }) {
                   <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                     Technical Writing
                   </h3>
-                  <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
                 </div>
               </div>
               <div className="group rounded px-8 py-12 shadow hover:bg-primary">
@@ -601,9 +592,6 @@ export default function Home({ blogs, profile }) {
                   <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                     Web Designing
                   </h3>
-                  <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
                 </div>
               </div>
               {/* <div className="text-center">
@@ -694,13 +682,13 @@ export default function Home({ blogs, profile }) {
                 Check out my Projects
               </h2>
               <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-                Here&apos;s what I have done with the past
+                Here&apos;s what i made in past.
               </h3>
 
               <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-lg text-primary">
+                    <h1 className="font-bold text-lg font-header">
                       Netflix Clone With React,Firebased is used to authenticate
                       user registeration and login and mongo is used to save
                       mylist liked movies and save user credentials
@@ -714,7 +702,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-lg text-primary">
+                    <h1 className="font-bold text-lg font-header">
                       Notebook - User need to authenticate first by
                       registeration and after that user will able to save any
                       private notes. No one can see the notes except the real
@@ -730,7 +718,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-lg text-primary">
+                    <h1 className="font-bold text-lg font-header">
                       A Simple CandyCrush Clone made with React
                     </h1>
                     <img
@@ -742,7 +730,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-lg text-primary">
+                    <h1 className="font-bold text-lg font-header">
                       TextUtils - A Power TextEditor Tool with lots of features
                       to analyze and make it perfect. Made with React
                     </h1>
@@ -755,7 +743,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-lg text-primary">
+                    <h1 className="font-bold text-lg font-header">
                       NewsHunter- Made with react and fetching all latest news
                       from India through an API . Have Different Headlines For
                       Different News.
@@ -769,7 +757,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl text-primary">
+                    <h1 className="font-bold text-xl font-header">
                       GoogleKeep Clone - A Simple React Application Which Will
                       keep your all notes.
                     </h1>
@@ -782,7 +770,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl text-primary">
+                    <h1 className="font-bold text-xl font-header">
                       A Secrets App Which is Same as Notebook App , But Used
                       Some of the extra features like googleoauth verification
                       with passport.js and many more mongo authentication , made
@@ -797,7 +785,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl text-primary">
+                    <h1 className="font-bold text-xl font-header">
                       Blog App- A simple Blog Application Made with Embedded
                       JavaScript , Express and MongoDB for Saving Blog Data.
                       Track your daily blogs with this application
@@ -811,7 +799,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl text-primary">
+                    <h1 className="font-bold text-xl font-header">
                       Todolist- A Todolist for your daily day to day activites
                       made with EJS , express, and mongoDB for saving and
                       deleted an item from todoList.
@@ -825,7 +813,7 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl text-primary">
+                    <h1 className="font-bold text-xl font-header">
                       Sinon Game - A game which will help you to make your
                       memorizing power strong it will randomly blink a color and
                       you need to remember all the patterns . eg:level 1 to
