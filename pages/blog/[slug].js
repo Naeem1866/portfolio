@@ -4,6 +4,7 @@ import { createClient } from "next-sanity";
 import PortableText from "react-portable-text";
 import NavBar from "../../components/NavBar";
 import imageUrlBuilder from "@sanity/image-url";
+import Link from "next/link";
 
 const Post = ({ blog, profile, author }) => {
   const client = createClient({
@@ -142,20 +143,7 @@ const Post = ({ blog, profile, author }) => {
                   }}
                 />
               </div>
-              {/* <div className="mt-10 flex justify-between border-t border-lila py-12">
-                <a href="/" className="flex items-center">
-                  <i className="bx bx-left-arrow-alt text-2xl text-primary"></i>
-                  <span className="block pl-2 font-body text-lg font-bold uppercase text-primary md:pl-5">
-                    Previous Post
-                  </span>
-                </a>
-                <a href="/" className="flex items-center">
-                  <span className="block pr-2 font-body text-lg font-bold uppercase text-primary md:pr-5">
-                    Next Post
-                  </span>
-                  <i className="bx bx-right-arrow-alt text-2xl text-primary"></i>
-                </a>
-              </div> */}
+
               <div className="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20">
                 <div className="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
                   <img
@@ -204,21 +192,27 @@ const Post = ({ blog, profile, author }) => {
               © Copyright 2022. All right reserved, ATOM.
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <a href="/">
-                <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" className="pl-4">
-                <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-              </a>
-              {/* <a href="/" className="pl-4">
-                <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-              </a> */}
-              <a href="/" className="pl-4">
-                <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" className="pl-4">
-                <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-              </a>
+              <Link href="/">
+                <a>
+                  <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
+                </a>
+              </Link>
+              <Link href="/" className="pl-4">
+                <a>
+                  <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+                </a>
+              </Link>
+
+              <Link href="/" className="pl-4">
+                <a>
+                  <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
+                </a>
+              </Link>
+              <Link href="/" className="pl-4">
+                <a>
+                  <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

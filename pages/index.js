@@ -98,40 +98,48 @@ export default function Home({ blogs, profile }) {
         <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
           <div className="container flex items-center justify-between">
             <div>
-              <a href="/">
-                <h1 className="text-3xl text-white font-bold">
-                  {profile.title}
-                </h1>
-              </a>
+              <Link href="/">
+                <a>
+                  <h1 className="text-3xl text-white font-bold">
+                    {profile.title}
+                  </h1>
+                </a>
+              </Link>
             </div>
             <div className="hidden lg:block">
               <ul className="flex items-center">
                 <li className="group pl-6">
-                  <a href="#about">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      About
-                    </span>
-                  </a>
+                  <Link href="/#about">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        About
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
-                  <a href="/#services">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Services
-                    </span>
-                  </a>
+                  <Link href="/#services">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Services
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
-                  <a href="#portfolio">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Projects
-                    </span>
-                  </a>
+                  <Link href="/#portfolio">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Projects
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -147,41 +155,49 @@ export default function Home({ blogs, profile }) {
                 </li> */}
 
                 {/* <li className="group pl-6">
-                  <a href="#work">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Work
-                    </span>
-                  </a>
-
-                  <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-                </li> */}
-                {/* 
-                <li className="group pl-6">
-                  <a href="#statistics">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Statistics
-                    </span>
-                  </a>
+                  <Link href="/#work">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Work
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li> */}
 
+                {/* <li className="group pl-6">
+                  <Link href="/#statistics">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Statistics
+                      </span>
+                    </a>
+                  </Link>
+
+                  <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                </li> */}
+
                 <li className="group pl-6">
-                  <a href="#blog">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Blog
-                    </span>
-                  </a>
+                  <Link href="/#blog">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Blog
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
 
                 <li className="group pl-6">
-                  <a href="#contact">
-                    <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
-                      Contact
-                    </span>
-                  </a>
+                  <Link href="/#contact">
+                    <a>
+                      <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
+                        Contact
+                      </span>
+                    </a>
+                  </Link>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
@@ -274,12 +290,12 @@ export default function Home({ blogs, profile }) {
                 </div>
                 <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                    Hello I'm {profile.name}!
+                    Hello I&apos;m {profile.name}!
                   </h1>
                   <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                     <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                       <p className="font-body text-lg uppercase text-white">
-                        Let's connect
+                        Let&apos;s connect
                       </p>
                       <div className="hidden sm:block">
                         <i className="bx bx-chevron-right text-3xl text-yellow"></i>
@@ -322,7 +338,7 @@ export default function Home({ blogs, profile }) {
                   Who am I?
                 </h2>
                 <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-                  I'm {profile.name}, a Web Developer & Programmer.
+                  I&apos;m {profile.name}, a Web Developer & Programmer.
                 </h4>
                 <p className="pt-6 font-body leading-relaxed text-grey-20">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
@@ -497,7 +513,7 @@ export default function Home({ blogs, profile }) {
 
           <div className="container py-16 md:py-20" id="services">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-              Here's what I'm good at
+              Here&apos;s what I&apos;m good at
             </h2>
             <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
               These are the services I offer
@@ -678,160 +694,151 @@ export default function Home({ blogs, profile }) {
                 Check out my Projects
               </h2>
               <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-                Here's what I have done with the past
+                Here&apos;s what I have done with the past
               </h3>
 
               <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-lg text-primary">
-                    Netflix Clone With React,Firebased is used to authenticate
-                    user registeration and login and mongo is used to save
-                    mylist liked movies and save user credentials
-                  </h1>
-                  <img
-                    src="/assets/img/netlfix.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-lg text-primary">
-                    Notebook - User need to authenticate first by registeration
-                    and after that user will able to save any private notes. No
-                    one can see the notes except the real user. This Application
-                    is made with React , express and mongodb
-                  </h1>
-                  <img
-                    src="/assets/img/notebook.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-lg text-primary">
-                    A Simple CandyCrush Clone made with React
-                  </h1>
-                  <img
-                    src="/assets/img/candycrush.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-lg text-primary">
-                    TextUtils - A Power TextEditor Tool with lots of features to
-                    analyze and make it perfect. Made with React
-                  </h1>
-                  <img
-                    src="/assets/img/textutils.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-lg text-primary">
-                    NewsHunter- Made with react and fetching all latest news
-                    from India through an API . Have Different Headlines For
-                    Different News.
-                  </h1>
-                  <img
-                    src="/assets/img/newhunter.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-xl text-primary">
-                    GoogleKeep Clone - A Simple React Application Which Will
-                    keep your all notes.
-                  </h1>
-                  <img
-                    src="/assets/img/keeper.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-xl text-primary">
-                    A Secrets App Which is Same as Notebook App , But Used Some
-                    of the extra features like googleoauth verification with
-                    passport.js and many more mongo authentication , made with
-                    express and mongo
-                  </h1>
-                  <img
-                    src="/assets/img/secrets.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-xl text-primary">
-                    Blog App- A simple Blog Application Made with Embedded
-                    JavaScript , Express and MongoDB for Saving Blog Data. Track
-                    your daily blogs with this application
-                  </h1>
-                  <img
-                    src="/assets/img/blog.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-xl text-primary">
-                    Todolist- A Todolist for your daily day to day activites
-                    made with EJS , express, and mongoDB for saving and deleted
-                    an item from todoList.
-                  </h1>
-                  <img
-                    src="/assets/img/todolist.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
-                <a
-                  href="/"
-                  className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-                >
-                  <h1 className="font-bold text-xl text-primary">
-                    Sinon Game - A game which will help you to make your
-                    memorizing power strong it will randomly blink a color and
-                    you need to remember all the patterns . eg:level 1 to
-                    level10 you need to remember all the color sequence. Made
-                    with HTML, CSS & Vanilla JavaScript
-                  </h1>
-                  <img
-                    src="/assets/img/sinon.png"
-                    className="w-full shadow"
-                    alt="portfolio image"
-                  />
-                </a>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-lg text-primary">
+                      Netflix Clone With React,Firebased is used to authenticate
+                      user registeration and login and mongo is used to save
+                      mylist liked movies and save user credentials
+                    </h1>
+                    <img
+                      src="/assets/img/netlfix.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-lg text-primary">
+                      Notebook - User need to authenticate first by
+                      registeration and after that user will able to save any
+                      private notes. No one can see the notes except the real
+                      user. This Application is made with React , express and
+                      mongodb
+                    </h1>
+                    <img
+                      src="/assets/img/notebook.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-lg text-primary">
+                      A Simple CandyCrush Clone made with React
+                    </h1>
+                    <img
+                      src="/assets/img/candycrush.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-lg text-primary">
+                      TextUtils - A Power TextEditor Tool with lots of features
+                      to analyze and make it perfect. Made with React
+                    </h1>
+                    <img
+                      src="/assets/img/textutils.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-lg text-primary">
+                      NewsHunter- Made with react and fetching all latest news
+                      from India through an API . Have Different Headlines For
+                      Different News.
+                    </h1>
+                    <img
+                      src="/assets/img/newhunter.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-xl text-primary">
+                      GoogleKeep Clone - A Simple React Application Which Will
+                      keep your all notes.
+                    </h1>
+                    <img
+                      src="/assets/img/keeper.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-xl text-primary">
+                      A Secrets App Which is Same as Notebook App , But Used
+                      Some of the extra features like googleoauth verification
+                      with passport.js and many more mongo authentication , made
+                      with express and mongo
+                    </h1>
+                    <img
+                      src="/assets/img/secrets.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-xl text-primary">
+                      Blog App- A simple Blog Application Made with Embedded
+                      JavaScript , Express and MongoDB for Saving Blog Data.
+                      Track your daily blogs with this application
+                    </h1>
+                    <img
+                      src="/assets/img/blog.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-xl text-primary">
+                      Todolist- A Todolist for your daily day to day activites
+                      made with EJS , express, and mongoDB for saving and
+                      deleted an item from todoList.
+                    </h1>
+                    <img
+                      src="/assets/img/todolist.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+                    <h1 className="font-bold text-xl text-primary">
+                      Sinon Game - A game which will help you to make your
+                      memorizing power strong it will randomly blink a color and
+                      you need to remember all the patterns . eg:level 1 to
+                      level10 you need to remember all the color sequence. Made
+                      with HTML, CSS & Vanilla JavaScript
+                    </h1>
+                    <img
+                      src="/assets/img/sinon.png"
+                      className="w-full shadow"
+                      alt="portfolio image"
+                    />
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1188,7 +1195,7 @@ export default function Home({ blogs, profile }) {
 
           <div className="container py-16 md:py-20" id="contact">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-              Here's My Contact Details
+              Here&apos;s My Contact Details
             </h2>
             <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
               If You Have Any Questions
