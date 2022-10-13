@@ -342,10 +342,9 @@ export default function Home({ blogs, profile }) {
                 </h4>
                 <p className="pt-6 font-body leading-relaxed text-grey-20">
                   I&apos;m currently a fresher. Looking for a job opportunity
-                  that will help me to enhance my programming skills
-                  ,capabilites and knowledge . I want to work with an
-                  organization which recognizes the value of hardwork and trusts
-                  me with challenges
+                  that will help me to enhance my programming skills,capabilites
+                  and knowledge. I want to work with an organization which
+                  recognizes the value of hardwork and trusts me with challenges
                 </p>
                 <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                   <div className="flex items-center justify-center sm:justify-start">
@@ -689,9 +688,9 @@ export default function Home({ blogs, profile }) {
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
                     <h1 className="font-bold text-lg font-header">
-                      Netflix Clone With React,Firebased is used to authenticate
-                      user registeration and login and mongo is used to save
-                      mylist liked movies and save user credentials
+                      Netflix Clone With React.Firebased is used to authenticate
+                      user registration and login. MongoDB is used to save
+                      mylist liked movies and save user credentials.
                     </h1>
                     <img
                       src="/assets/img/netlfix.png"
@@ -703,11 +702,11 @@ export default function Home({ blogs, profile }) {
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
                     <h1 className="font-bold text-lg font-header">
-                      Notebook - User need to authenticate first by
-                      registeration and after that user will able to save any
+                      Notebook - User needs to authenticate first by
+                      registration, after that user will able to save any
                       private notes. No one can see the notes except the real
-                      user. This Application is made with React , express and
-                      mongodb
+                      user. This Application is made with React, Express and
+                      MongoDB.
                     </h1>
                     <img
                       src="/assets/img/notebook.png"
@@ -719,7 +718,7 @@ export default function Home({ blogs, profile }) {
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
                     <h1 className="font-bold text-lg font-header">
-                      A Simple CandyCrush Clone made with React
+                      A Simple CandyCrush Clone made with React.
                     </h1>
                     <img
                       src="/assets/img/candycrush.png"
@@ -732,7 +731,8 @@ export default function Home({ blogs, profile }) {
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
                     <h1 className="font-bold text-lg font-header">
                       TextUtils - A Power TextEditor Tool with lots of features
-                      to analyze and make it perfect. Made with React
+                      to analyze the text and make it even more perfect.This Web
+                      Application is made with React.
                     </h1>
                     <img
                       src="/assets/img/textutils.png"
@@ -744,8 +744,8 @@ export default function Home({ blogs, profile }) {
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
                     <h1 className="font-bold text-lg font-header">
-                      NewsHunter- Made with react and fetching all latest news
-                      from India through an API . Have Different Headlines For
+                      NewsHunter- Made with React. Fetching all latest news from
+                      India through an API. Have Different Headlines For
                       Different News.
                     </h1>
                     <img
@@ -757,8 +757,8 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl font-header">
-                      GoogleKeep Clone - A Simple React Application Which Will
+                    <h1 className="font-bold text-lg font-header">
+                      GoogleKeep Clone - A Simple React Application which will
                       keep your all notes.
                     </h1>
                     <img
@@ -770,11 +770,11 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl font-header">
-                      A Secrets App Which is Same as Notebook App , But Used
-                      Some of the extra features like googleoauth verification
-                      with passport.js and many more mongo authentication , made
-                      with express and mongo
+                    <h1 className="font-bold text-lg font-header">
+                      A Secrets App which is same as Notebook App, but used some
+                      of the extra features like googleoauth verification with
+                      passport.js and many more mongo authentication, made with
+                      Express and MongoDB.
                     </h1>
                     <img
                       src="/assets/img/secrets.png"
@@ -785,10 +785,10 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl font-header">
-                      Blog App- A simple Blog Application Made with Embedded
-                      JavaScript , Express and MongoDB for Saving Blog Data.
-                      Track your daily blogs with this application
+                    <h1 className="font-bold text-lg font-header">
+                      Blog App- A simple Blog Application made with Embedded
+                      JavaScript, Express and MongoDB for Saving Blog Data.
+                      Track your daily blogs with this application.
                     </h1>
                     <img
                       src="/assets/img/blog.png"
@@ -799,10 +799,10 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl font-header">
+                    <h1 className="font-bold text-lg font-header">
                       Todolist- A Todolist for your daily day to day activites
-                      made with EJS , express, and mongoDB for saving and
-                      deleted an item from todoList.
+                      made with EJS, and Express. MongoDB is used for saving and
+                      delete an item from todoList.
                     </h1>
                     <img
                       src="/assets/img/todolist.png"
@@ -813,12 +813,12 @@ export default function Home({ blogs, profile }) {
                 </Link>
                 <Link href="/">
                   <a className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                    <h1 className="font-bold text-xl font-header">
+                    <h1 className="font-bold text-lg font-header">
                       Sinon Game - A game which will help you to make your
                       memorizing power strong it will randomly blink a color and
-                      you need to remember all the patterns . eg:level 1 to
-                      level10 you need to remember all the color sequence. Made
-                      with HTML, CSS & Vanilla JavaScript
+                      you need to remember all the patterns. For eg:level 1 to
+                      level 10 you need to remember all the color sequence. Made
+                      with HTML, CSS & Vanilla JavaScript.
                     </h1>
                     <img
                       src="/assets/img/sinon.png"
@@ -1287,7 +1287,7 @@ export default function Home({ blogs, profile }) {
                   placeholder="Give me your Email"
                 />
                 <button className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-                  Join the club
+                  Thanks
                 </button>
               </form>
             </div>
@@ -1296,7 +1296,7 @@ export default function Home({ blogs, profile }) {
         <div className="bg-primary">
           <div className="container flex flex-col justify-between py-6 sm:flex-row">
             <p className="text-center font-body text-white md:text-left">
-              © Copyright 2022. Naeem Khan
+              Naeem Khan - &copy; Copyright 2022
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
               <a href={profile.fbUrl}>

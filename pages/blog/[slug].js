@@ -122,7 +122,7 @@ const Post = ({ blog, profile, author }) => {
                       By {author.title}
                     </span>
                     <span className="block pt-1 font-body text-xl font-bold text-grey-30">
-                      February 27, 2022
+                      October 11,2022
                     </span>
                   </div>
                 </div>
@@ -162,8 +162,8 @@ const Post = ({ blog, profile, author }) => {
                   </h1>
                   <p className="pt-5 font-body text-lg leading-8 text-secondary sm:leading-9 md:text-xl md:leading-9 lg:leading-9 xl:leading-9">
                     I&apos;m currently a fresher. Looking for a job opportunity
-                    that will help me to enhance my programming skills
-                    ,capabilites and knowledge . I want to work with an
+                    that will help me to enhance my programming
+                    skills,capabilites and knowledge . I want to work with an
                     organization which recognizes the value of hardwork and
                     trusts me with challenges
                   </p>
@@ -193,7 +193,7 @@ const Post = ({ blog, profile, author }) => {
         <div className="bg-primary">
           <div className="container flex flex-col justify-between py-6 sm:flex-row">
             <p className="text-center font-body text-white md:text-left ">
-              © Copyright 2022. All right reserved, ATOM.
+              Naeem Khan - &copy; Copyright 2022
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
               <Link href="/">
