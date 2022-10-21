@@ -552,7 +552,7 @@ export default function Home({ blogs, profile }) {
                     />
                   </div>
                 </div>
-                <div className="text-center">
+                {/* <div className="text-center">
                   <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                     Technical Writing
                   </h3>
@@ -572,7 +572,7 @@ export default function Home({ blogs, profile }) {
                       alt="Graphic Design icon"
                     />
                   </div>
-                </div>
+                </div> */}
                 {/* <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div className="hidden group-hover:block">
                     <img
